@@ -45,26 +45,43 @@ This platform addresses these challenges by building a modern **AI-enabled fraud
 The system follows a layered architecture:
 
 ```
-Data Sources
-   ↓
+Healthcare Data Sources
+(CSV Claims, Beneficiary Data, Doctor Notes)
+        │
+        ▼
 Azure Data Factory
-   ↓
-Azure Data Lake (Bronze)
-   ↓
-Databricks + Delta Lake (Silver)
-   ↓
-Dataiku (Feature Engineering + ML + RAG orchestration)
-   ↓
-MLflow Model Registry
-   ↓
-Fraud Probability Output (Gold Layer)
-   ↓
-FastAPI (Dockerized API)
-   ↓
+(Data Ingestion & Scheduling)
+        │
+        ▼
+Azure Data Lake Storage Gen2
+(Bronze Layer – Raw Data)
+        │
+        ▼
+Azure Databricks + Delta Lake
+(Silver Layer – Cleaning & Data Integration)
+        │
+        ▼
+Feature Engineering (Databricks / PySpark)
+        │
+        ▼
+MLflow Model Training
+(Fraud Detection Model)
+        │
+        ▼
+Gold Layer (Delta Tables)
+(Fraud Scores + Business Metrics)
+        │
+        ▼
+FastAPI Service (Dockerized)
+(Real-time Fraud Prediction API)
+        │
+        ▼
 Power BI Dashboard
-   ↓
-RAG System for Explanations
-```
+(Fraud Monitoring & Business Analytics)
+        │
+        ▼
+RAG + LLM System
+(Explain Fraud Predictions using Doctor Notes)```
 
 ---
 
