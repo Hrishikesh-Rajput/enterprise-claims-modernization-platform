@@ -38,6 +38,7 @@ This platform addresses these challenges by building a modern **AI-enabled fraud
 * **Power BI dashboard** for business insights
 
 ---
+![Enterprice claims modernization (1)](https://github.com/user-attachments/assets/e87ae7d3-14f1-4278-9e4b-6d31e7032032)
 
 # Architecture
 
