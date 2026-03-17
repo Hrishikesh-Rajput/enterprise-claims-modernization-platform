@@ -1,6 +1,5 @@
-# enterprise-claims-modernization-platform
-End-to-end fraud detection system using Azure Lakehouse, MLflow, FastAPI, and RAG-based explainable AI.
 # Enterprise Claims Modernization Platform
+End-to-end fraud detection system using Azure Lakehouse, MLflow, FastAPI, and RAG-based explainable AI.
 
 ### Azure Lakehouse + MLflow + GenAI + MLOps
 
@@ -50,14 +49,14 @@ Healthcare Data Sources
         │
         ▼
 Azure Data Factory
-(Data Ingestion & Scheduling)
+(Data Ingestion )
         │
         ▼
 Azure Data Lake Storage Gen2
 (Bronze Layer – Raw Data)
         │
         ▼
-Azure Databricks + Delta Lake
+Azure Databricks 
 (Silver Layer – Cleaning & Data Integration)
         │
         ▼
@@ -303,7 +302,13 @@ Possible improvements include:
 * Interactive AI investigation assistant
 
 ---
+#** Phases Of Project** 
+![Enterprice claims modernization (1)](https://github.com/user-attachments/assets/a30055a1-5765-4fbf-91b7-6e4c77fa969a)
+![Enterprice claims modernization (2)](https://github.com/user-attachments/assets/f80bf9bf-58e6-4381-abac-26e652dacc22)
+![Enterprice claims modernization (3)](https://github.com/user-attachments/assets/4de63d03-b0b6-47db-8ab4-582f0c89fb59)
+![Enterprice claims modernization (4)](https://github.com/user-attachments/assets/d3ae41fe-9217-442d-9a4f-6ae245395557)
+![Enterprice claims modernization (5)](https://github.com/user-attachments/assets/c782b567-aafc-4c68-8900-882f504b03e9)
 
 # Author
-
+# Hrishikesh Rajput 
 Project developed as part of an enterprise-scale data and AI architecture study combining **data engineering, machine learning, and generative AI**.
